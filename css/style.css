@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    margin: 0;
+}
+
+/* Nav Styles */
+nav {
+    background-color: antiquewhite;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav p, nav a {}
+
+nav a {}
+
+nav a:hover {}
+
+/* Footer Styles */
+footer {
+    background-color: antiquewhite;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {}
+
+footer a:hover {}
+
+/* Splash Section */
+.splash {}
+
+.splash h1 {
+    font-family: "Tinos", serif;
+    color: #d4d4dc;
+    font-size: 2rem;
+}
+
+.splash img {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.splash .address {
+    font-size: 24px;
+}
+
+.splash .tag {
+    font-style: italic;
+}
+/* Horizontal Rules */
+hr {
+    border-style: dashed;
+    border-width: 2px;
+    color: burlywood;
+}
+
+/* Sections */
+section {
+    font-size: 2em;
+}
+
+/* Section Headings */
+section h2 {
+    font-family: "Roboto", serif;
+    color: #7D7C79;
+
+}
+
+/* Education Paragraph */
+.edu {
+    font-weight: bold;
+}
+
+/* Paragraph Styles */
+section p {}
+
+/* link styles */
+section a {
+    color: #7D7C79;
+    text-decoration: none;
+}
+section a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/* List Styles */
+ul {
+    list-style-type: circle;
+}
+
+dl {
+    display: grid;
+}
+dl dt{}
+dl dd{}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.card {
+    border-style: solid;
+    border-width: 2px;
+    background-color: #918d8d;
+    padding: 10px;
+    border-radius: 2%;
+}
+
+.card img {
+    width: 75%;
+    height: auto;
+}
+
+.card h3 {}
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+form {}
+
+form input, form textarea {
+    border: solid 2px;
+    border-radius: 5px;
+}
+
+form input:focus, form textarea:focus {}
+
+form button {
+    border: solid 2px;
+    border-color: black;
+    color: white;
+    margin-bottom: 5px;
+}
+
+form button:hover {}
