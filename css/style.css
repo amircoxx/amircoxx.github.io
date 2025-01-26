@@ -61,15 +61,13 @@ hr {
 }
 
 /* Sections */
-section {
-    font-size: 2em;
-}
+section {}
 
 /* Section Headings */
 section h2 {
     font-family: "Roboto", serif;
     color: #7D7C79;
-
+    font-size: 32px;
 }
 
 /* Education Paragraph */
@@ -78,11 +76,13 @@ section h2 {
 }
 
 /* Paragraph Styles */
-section p {}
+section p {
+    font-size: 24px;
+}
 
 /* link styles */
 section a {
-    color: #7D7C79;
+    color: #D3D3D3;
     text-decoration: none;
 }
 section a:hover {
@@ -97,9 +97,15 @@ ul {
 
 dl {
     display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
 }
-dl dt{}
-dl dd{}
+dl dt{
+    font-weight: bold;
+}
+dl dd{
+    font-style: italic;
+}
 
 /* Project Section */
 .three-col {
@@ -117,7 +123,7 @@ dl dd{}
 }
 
 .card img {
-    width: 75%;
+    width: 100%;
     height: auto;
 }
 
